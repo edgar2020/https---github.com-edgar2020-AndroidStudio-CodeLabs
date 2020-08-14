@@ -1,0 +1,2 @@
+rootProject.name='DrawableTest_V1'
+include ':app'

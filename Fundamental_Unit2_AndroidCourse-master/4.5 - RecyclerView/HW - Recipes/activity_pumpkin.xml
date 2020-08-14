@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PumpkinActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="350sp"
+                android:layout_height="350sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/pumpkinroll" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/cooktime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Yield: 8-10 servings | Prep Time: 30 minutes | Cook: 1 hour" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/ingredients_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="Ingredients"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ingredients_1_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="Cooking spray" />
+
+            <TextView
+                android:id="@+id/ingredients_2_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 c. granulated sugar" />
+
+            <TextView
+                android:id="@+id/ingredients_3_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="3/4 c. all-purpose flour" />
+
+            <TextView
+                android:id="@+id/ingredients_4_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1/2 tsp. kosher salt" />
+
+            <TextView
+                android:id="@+id/ingredients_5_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 tsp. baking soda" />
+
+            <TextView
+                android:id="@+id/ingredients_6_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1/2 tsp. pumpkin spice" />
+
+            <TextView
+                android:id="@+id/ingredients_7_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="3 large eggs" />
+
+            <TextView
+                android:id="@+id/ingredients_8_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="2/3 c. pumpkin puree" />
+
+            <TextView
+                android:id="@+id/ingredients_9_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="Powdered sugar, for rolling" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/ingredients_subtitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:textStyle="italic"
+                android:text="For Filling:" />
+
+            <TextView
+                android:id="@+id/ingredients_1_filling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="12 oz. cream cheese, softened" />
+
+            <TextView
+                android:id="@+id/ingredients_2_filling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 tbsp. melted butter" />
+
+            <TextView
+                android:id="@+id/ingredients_3_filling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 tsp. pure vanilla extract" />
+
+            <TextView
+                android:id="@+id/ingredients_4_filling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="1 1/4 c. powdered sugar" />
+
+            <TextView
+                android:id="@+id/ingredients_5_filling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="1/2 tsp. kosher salt" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/directions_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="Directions"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/directions_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:text="Preheat oven to 350°. Line a 15” x 10” jelly roll pan with parchment and grease with cooking spray. In a large bowl, combine sugar, flour, salt, baking soda, pumpkin spice, eggs, and pumpkin puree until just combined. Spread into prepared pan and bake until a toothpick inserted in center of cake comes out clean, 15 minutes." />
+
+            <TextView
+                android:id="@+id/directions_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:text="Meanwhile, lay out a large kitchen towel on your counter (try to use one with little to no texture) and dust with powdered sugar. When cake is done baking, flip onto kitchen towel and gently peel off parchment paper." />
+
+            <TextView
+                android:id="@+id/directions_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:text="Starting at a short end, gently but tightly roll cake into a log. Let cool completely." />
+
+            <TextView
+                android:id="@+id/directions_4"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meanwhile, make filling: In a large bowl, combine cream cheese, melted butter, vanilla, powdered sugar, and salt. Using a hand mixer, whip until smooth." />
+
+            <TextView
+                android:id="@+id/directions_5"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When cake is cooled, gently unroll (it’s ok if it remains slightly curled) and spread with cream cheese filling. Roll back up and dust with more powdered sugar. Slice and serve." />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

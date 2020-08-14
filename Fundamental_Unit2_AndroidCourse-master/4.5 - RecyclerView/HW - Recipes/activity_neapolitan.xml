@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NeapolitanActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="350sp"
+                android:layout_height="350sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/neapolitancake" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/cooktime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Yield: 12 servings | Prep Time: 15 minutes | Cook: 2 hours" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/ingredients_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="Ingredients"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ingredients_1_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="Cooking spray" />
+
+            <TextView
+                android:id="@+id/ingredients_2_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 box white cake mix" />
+
+            <TextView
+                android:id="@+id/ingredients_3_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 c. water" />
+
+            <TextView
+                android:id="@+id/ingredients_4_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1/3 c. (5 tbsp.) melted butter" />
+
+            <TextView
+                android:id="@+id/ingredients_5_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="3 egg whites" />
+
+            <TextView
+                android:id="@+id/ingredients_6_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="2 tbsp. strawberry syrup" />
+
+            <TextView
+                android:id="@+id/ingredients_7_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 tsp. pure vanilla extract" />
+
+            <TextView
+                android:id="@+id/ingredients_8_cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1/4 c. chocolate syrup" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/ingredients_subtitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:textStyle="italic"
+                android:text="For The Ganache:" />
+
+            <TextView
+                android:id="@+id/ingredients_1_ganache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="3/4 c. heavy cream" />
+
+            <TextView
+                android:id="@+id/ingredients_2_ganach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:text="1 1/2 c. chocolate chips" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/directions_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="Directions"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/directions_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:text="Preheat oven to 350° and grease a bundt pan with cooking spray. In a large bowl using a hand mixer, beat cake mix, water, butter, and eggs. Pour ⅓ mixture batter into prepared bundt pan. " />
+
+            <TextView
+                android:id="@+id/directions_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:text="Divide remaining mixture in half. Stir food coloring and strawberry extract into one half and pour over white batter in pan. " />
+
+            <TextView
+                android:id="@+id/directions_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="5dp"
+                android:text="Stir vanilla and chocolate sauce into remaining half and pour over strawberry batter. " />
+
+            <TextView
+                android:id="@+id/directions_4"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bake until a toothpick inserted middle of cake comes out clean, about 40 minutes. Let cool in pan 15 minutes before inverting onto wire rack to cool completely." />
+
+            <TextView
+                android:id="@+id/directions_5"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meanwhile, make ganache: In a small saucepan over medium heat, bring cream to a simmer. Turn off heat, then pour over chocolate chips in a heatproof bowl. Let sit 2 minutes, then whisk until smooth. " />
+
+            <TextView
+                android:id="@+id/directions_6"
+                android:paddingLeft="20dp"
+                android:paddingStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pour ganache over cooled cake before serving. " />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
